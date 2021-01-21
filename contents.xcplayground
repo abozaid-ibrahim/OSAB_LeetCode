@@ -2,6 +2,8 @@
 <playground version='6.0' target-platform='ios' buildActiveScheme='true'>
     <pages>
         <page name='MergeTwoBinaryArray'/>
-        <page name='Untitled Page'/>
+        <page name='SQRT'/>
+        <page name='strStr'/>
+        <page name='LongestCommonPrefix'/>
     </pages>
 </playground>
