@@ -16,4 +16,5 @@ func mergeTrees(_ t1: TreeNode?, _ t2: TreeNode?) -> TreeNode? {
     // Time: O(M+N)
     return node
 }
+
 mergeTrees(nil, nil)
