@@ -7,5 +7,7 @@
         <page name='LongestCommonPrefix'/>
         <page name='ValidParances'/>
         <page name='ThreeDividors'/>
+        <page name='SayNumber'/>
+        <page name='isSymmetric'/>
     </pages>
 </playground>
