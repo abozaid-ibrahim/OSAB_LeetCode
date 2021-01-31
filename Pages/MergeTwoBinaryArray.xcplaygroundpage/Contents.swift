@@ -1,4 +1,22 @@
 // #617
+func isRectangleOverlap(_ rec1: [Int], _ rec2: [Int]) -> Bool {
+    let x = min(rec1[0], rec1[2]) ... max(rec1[0], rec1[2])
+    let y = min(rec1[1], rec1[3]) ... max(rec1[1], rec1[3])
+    let x2 = min(rec2[0], rec2[2]) ... max(rec2[0], rec2[2])
+    let y2 = min(rec2[1], rec2[3]) ... max(rec2[1], rec2[3])
+    return inter(x2, x) || inter(y, y2)
+}
+
+func inter(_ a: CountableClosedRange<Int>, _ b: CountableClosedRange<Int>) -> Bool {
+    for i in b {
+        for j in a {
+            if i == j {
+                return true
+            }
+        }
+    }
+    return false
+}
 
 func mergeTrees(_ t1: TreeNode?, _ t2: TreeNode?) -> TreeNode? {
     if t1 == nil {
