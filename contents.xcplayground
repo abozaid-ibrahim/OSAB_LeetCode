@@ -9,5 +9,14 @@
         <page name='ThreeDividors'/>
         <page name='SayNumber'/>
         <page name='isSymmetric'/>
+        <page name='MissingNumber'/>
+        <page name='FirstUniqeChar'/>
+        <page name='IsBipartiteGraph'/>
+        <page name='AlternateEdgess'/>
+        <page name='findRedundantConnection'/>
+        <page name='Dijkstra'/>
+        <page name='EulerCircit'/>
+        <page name='FlipTree'/>
+        <page name='SerielizeTree'/>
     </pages>
 </playground>
